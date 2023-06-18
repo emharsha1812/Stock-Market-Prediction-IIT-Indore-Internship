@@ -1,0 +1,249 @@
+2023-06-14 18:05:50,687 : INFO : collecting all words and their counts
+2023-06-14 18:05:50,692 : INFO : PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2023-06-14 18:05:56,929 : INFO : collected 253854 word types from a corpus of 17005207 raw words and 1701 sentences
+2023-06-14 18:05:56,930 : INFO : Creating a fresh vocabulary
+2023-06-14 18:05:57,207 : INFO : Word2Vec lifecycle event {'msg': 'effective_min_count=5 retains 71290 unique words (28.08% of original 253854, drops 182564)', 'datetime': '2023-06-14T18:05:57.207402', 'gensim': '4.3.0', 'python': '3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2023-06-14 18:05:57,207 : INFO : Word2Vec lifecycle event {'msg': 'effective_min_count=5 leaves 16718844 word corpus (98.32% of original 17005207, drops 286363)', 'datetime': '2023-06-14T18:05:57.207402', 'gensim': '4.3.0', 'python': '3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2023-06-14 18:05:57,538 : INFO : deleting the raw counts dictionary of 253854 items
+2023-06-14 18:05:57,546 : INFO : sample=0.001 downsamples 38 most-common words
+2023-06-14 18:05:57,546 : INFO : Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 12506280.016269669 word corpus (74.8%% of prior 16718844)', 'datetime': '2023-06-14T18:05:57.546376', 'gensim': '4.3.0', 'python': '3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'prepare_vocab'}
+2023-06-14 18:05:58,087 : INFO : estimated required memory for 71290 words and 100 dimensions: 92677000 bytes
+2023-06-14 18:05:58,087 : INFO : resetting layer weights
+2023-06-14 18:05:58,113 : INFO : Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2023-06-14T18:05:58.113781', 'gensim': '4.3.0', 'python': '3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'build_vocab'}
+2023-06-14 18:05:58,113 : INFO : Word2Vec lifecycle event {'msg': 'training model with 3 workers on 71290 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2023-06-14T18:05:58.113781', 'gensim': '4.3.0', 'python': '3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2023-06-14 18:05:59,118 : INFO : EPOCH 0 - PROGRESS: at 9.99% examples, 1238290 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:00,122 : INFO : EPOCH 0 - PROGRESS: at 20.34% examples, 1261798 words/s, in_qsize 6, out_qsize 0
+2023-06-14 18:06:01,127 : INFO : EPOCH 0 - PROGRESS: at 30.92% examples, 1284896 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:02,129 : INFO : EPOCH 0 - PROGRESS: at 41.15% examples, 1285025 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:03,136 : INFO : EPOCH 0 - PROGRESS: at 50.73% examples, 1267507 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:04,139 : INFO : EPOCH 0 - PROGRESS: at 60.49% examples, 1259911 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:05,143 : INFO : EPOCH 0 - PROGRESS: at 70.31% examples, 1255005 words/s, in_qsize 6, out_qsize 0
+2023-06-14 18:06:06,143 : INFO : EPOCH 0 - PROGRESS: at 81.01% examples, 1263205 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:07,150 : INFO : EPOCH 0 - PROGRESS: at 91.24% examples, 1264034 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:08,025 : INFO : EPOCH 0: training on 17005207 raw words (12506327 effective words) took 9.9s, 1262148 effective words/s
+2023-06-14 18:06:09,031 : INFO : EPOCH 1 - PROGRESS: at 10.23% examples, 1263824 words/s, in_qsize 4, out_qsize 0
+2023-06-14 18:06:10,035 : INFO : EPOCH 1 - PROGRESS: at 20.52% examples, 1271773 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:11,036 : INFO : EPOCH 1 - PROGRESS: at 31.16% examples, 1295412 words/s, in_qsize 4, out_qsize 1
+2023-06-14 18:06:12,042 : INFO : EPOCH 1 - PROGRESS: at 41.62% examples, 1299251 words/s, in_qsize 6, out_qsize 0
+2023-06-14 18:06:13,044 : INFO : EPOCH 1 - PROGRESS: at 51.62% examples, 1290018 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:14,047 : INFO : EPOCH 1 - PROGRESS: at 61.85% examples, 1288498 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:15,052 : INFO : EPOCH 1 - PROGRESS: at 71.84% examples, 1282779 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:16,055 : INFO : EPOCH 1 - PROGRESS: at 81.95% examples, 1277762 words/s, in_qsize 6, out_qsize 0
+2023-06-14 18:06:17,057 : INFO : EPOCH 1 - PROGRESS: at 91.89% examples, 1273472 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:17,888 : INFO : EPOCH 1: training on 17005207 raw words (12507568 effective words) took 9.9s, 1268291 effective words/s
+2023-06-14 18:06:18,894 : INFO : EPOCH 2 - PROGRESS: at 9.58% examples, 1185866 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:19,897 : INFO : EPOCH 2 - PROGRESS: at 19.34% examples, 1199410 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:20,903 : INFO : EPOCH 2 - PROGRESS: at 28.92% examples, 1200093 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:21,904 : INFO : EPOCH 2 - PROGRESS: at 39.27% examples, 1226103 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:22,913 : INFO : EPOCH 2 - PROGRESS: at 49.79% examples, 1243019 words/s, in_qsize 5, out_qsize 1
+2023-06-14 18:06:23,915 : INFO : EPOCH 2 - PROGRESS: at 59.91% examples, 1247074 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:24,916 : INFO : EPOCH 2 - PROGRESS: at 70.25% examples, 1253803 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:25,918 : INFO : EPOCH 2 - PROGRESS: at 80.95% examples, 1262184 words/s, in_qsize 6, out_qsize 0
+2023-06-14 18:06:26,922 : INFO : EPOCH 2 - PROGRESS: at 91.06% examples, 1261852 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:27,783 : INFO : EPOCH 2: training on 17005207 raw words (12504632 effective words) took 9.9s, 1264041 effective words/s
+2023-06-14 18:06:28,792 : INFO : EPOCH 3 - PROGRESS: at 10.23% examples, 1260096 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:29,802 : INFO : EPOCH 3 - PROGRESS: at 20.46% examples, 1261978 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:30,806 : INFO : EPOCH 3 - PROGRESS: at 30.45% examples, 1261109 words/s, in_qsize 4, out_qsize 0
+2023-06-14 18:06:31,806 : INFO : EPOCH 3 - PROGRESS: at 40.45% examples, 1260539 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:32,813 : INFO : EPOCH 3 - PROGRESS: at 50.79% examples, 1266954 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:33,815 : INFO : EPOCH 3 - PROGRESS: at 60.44% examples, 1257188 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:34,815 : INFO : EPOCH 3 - PROGRESS: at 69.31% examples, 1236543 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:35,824 : INFO : EPOCH 3 - PROGRESS: at 78.01% examples, 1214884 words/s, in_qsize 6, out_qsize 0
+2023-06-14 18:06:36,828 : INFO : EPOCH 3 - PROGRESS: at 87.30% examples, 1208202 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:37,832 : INFO : EPOCH 3 - PROGRESS: at 97.30% examples, 1211275 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:38,119 : INFO : EPOCH 3: training on 17005207 raw words (12504930 effective words) took 10.3s, 1210094 effective words/s
+2023-06-14 18:06:39,130 : INFO : EPOCH 4 - PROGRESS: at 8.64% examples, 1063577 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:40,133 : INFO : EPOCH 4 - PROGRESS: at 17.75% examples, 1098353 words/s, in_qsize 4, out_qsize 0
+2023-06-14 18:06:41,138 : INFO : EPOCH 4 - PROGRESS: at 25.81% examples, 1067654 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:42,139 : INFO : EPOCH 4 - PROGRESS: at 34.39% examples, 1072406 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:43,144 : INFO : EPOCH 4 - PROGRESS: at 43.09% examples, 1075606 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:44,151 : INFO : EPOCH 4 - PROGRESS: at 52.15% examples, 1084130 words/s, in_qsize 6, out_qsize 0
+2023-06-14 18:06:45,152 : INFO : EPOCH 4 - PROGRESS: at 62.26% examples, 1110415 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:46,152 : INFO : EPOCH 4 - PROGRESS: at 72.37% examples, 1130113 words/s, in_qsize 4, out_qsize 0
+2023-06-14 18:06:47,160 : INFO : EPOCH 4 - PROGRESS: at 82.54% examples, 1142706 words/s, in_qsize 4, out_qsize 1
+2023-06-14 18:06:48,166 : INFO : EPOCH 4 - PROGRESS: at 92.83% examples, 1156404 words/s, in_qsize 5, out_qsize 0
+2023-06-14 18:06:48,870 : INFO : EPOCH 4: training on 17005207 raw words (12505048 effective words) took 10.7s, 1163533 effective words/s
+2023-06-14 18:06:48,871 : INFO : Word2Vec lifecycle event {'msg': 'training on 85026035 raw words (62528505 effective words) took 50.8s, 1231933 effective words/s', 'datetime': '2023-06-14T18:06:48.870171', 'gensim': '4.3.0', 'python': '3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'train'}
+2023-06-14 18:06:48,871 : INFO : Word2Vec lifecycle event {'params': 'Word2Vec<vocab=71290, vector_size=100, alpha=0.025>', 'datetime': '2023-06-14T18:06:48.871176', 'gensim': '4.3.0', 'python': '3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2023-06-14 18:51:13,330 : INFO : adding document #0 to Dictionary<0 unique tokens: []>
+2023-06-14 18:51:14,121 : INFO : built Dictionary<40299 unique tokens: ['alex', 'battle', 'blues', 'build', 'buoy']...> from 3623 documents (total 639251 corpus positions)
+2023-06-14 18:51:14,125 : INFO : Dictionary lifecycle event {'msg': "built Dictionary<40299 unique tokens: ['alex', 'battle', 'blues', 'build', 'buoy']...> from 3623 documents (total 639251 corpus positions)", 'datetime': '2023-06-14T18:51:14.122470', 'gensim': '4.3.0', 'python': '3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2023-06-14 18:51:14,165 : INFO : discarding 32428 tokens: [('buoy', 1), ('denver', 2), ('hindrance', 1), ('hunters', 4), ('jospin', 3), ('kohl', 5), ('landmine', 3), ('maracana', 1), ('new', 1939), ('prevail', 3)]...
+2023-06-14 18:51:14,166 : INFO : keeping 7871 tokens which were in no less than 10 and no more than 1086 (=30.0%) documents
+2023-06-14 18:51:14,187 : INFO : resulting dictionary: Dictionary<7871 unique tokens: ['alex', 'battle', 'blues', 'build', 'catch']...>
+2023-06-14 18:51:14,195 : INFO : Dictionary lifecycle event {'fname_or_handle': 'train_dict_hdp', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2023-06-14T18:51:14.195535', 'gensim': '4.3.0', 'python': '3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'saving'}
+2023-06-14 18:51:14,205 : INFO : saved train_dict_hdp
+2023-06-14 18:51:15,201 : WARNING : likelihood is decreasing!
+2023-06-14 18:51:15,201 : WARNING : likelihood is decreasing!
+2023-06-14 18:51:15,202 : WARNING : likelihood is decreasing!
+2023-06-14 18:51:28,787 : INFO : (0, '0.004*israel + 0.004*china + 0.003*people + 0.003*country + 0.003*war + 0.003*russia + 0.003*america + 0.003*israeli + 0.003*one + 0.003*uk')
+2023-06-14 18:51:28,792 : INFO : (1, '0.003*review + 0.003*cd + 0.003*letters + 0.003*obituary + 0.002*day + 0.002*england + 0.002*football + 0.002*diary + 0.002*get + 0.002*london')
+2023-06-14 18:51:28,798 : INFO : (2, '0.002*leader + 0.002*football + 0.002*review + 0.002*letters + 0.002*england + 0.002*may + 0.002*get + 0.001*go + 0.001*deal + 0.001*obituary')
+2023-06-14 18:51:28,802 : INFO : (3, '0.004*review + 0.004*nan + 0.003*cricket + 0.003*cup + 0.003*rugby + 0.003*back + 0.002*football + 0.002*league + 0.002*racing + 0.002*horse')
+2023-06-14 18:51:28,808 : INFO : (4, '0.003*review + 0.002*back + 0.002*leader + 0.001*man + 0.001*letters + 0.001*england + 0.001*win + 0.001*battle + 0.001*tv + 0.001*home')
+2023-06-14 18:51:28,815 : INFO : (5, '0.002*england + 0.002*get + 0.002*cup + 0.001*leader + 0.001*day + 0.001*crisis + 0.001*take + 0.001*may + 0.001*bbc + 0.001*deal')
+2023-06-14 18:51:28,821 : INFO : (6, '0.003*review + 0.002*time + 0.002*england + 0.001*bbc + 0.001*day + 0.001*play + 0.001*mobile + 0.001*may + 0.001*united + 0.001*deal')
+2023-06-14 18:51:28,826 : INFO : (7, '0.002*cd + 0.002*football + 0.002*letters + 0.001*england + 0.001*back + 0.001*racing + 0.001*face + 0.001*court + 0.001*rugby + 0.001*dec')
+2023-06-14 18:51:28,833 : INFO : (8, '0.001*flu + 0.001*face + 0.001*make + 0.001*blair + 0.001*uk + 0.001*obituary + 0.001*england + 0.001*talk + 0.001*review + 0.001*europe')
+2023-06-14 18:51:28,837 : INFO : (9, '0.004*review + 0.002*england + 0.001*edinburgh + 0.001*theatre + 0.001*get + 0.001*manchester + 0.001*leaf + 0.001*united + 0.001*scotland + 0.001*cup')
+2023-06-14 18:51:28,843 : INFO : (10, '0.004*review + 0.001*back + 0.001*liverpool + 0.001*guardian + 0.001*may + 0.001*theatre + 0.001*london + 0.001*cup + 0.001*face + 0.001*interview')
+2023-06-14 18:51:28,849 : INFO : (11, '0.002*review + 0.001*football + 0.001*city + 0.001*nan + 0.001*call + 0.001*fulham + 0.001*tb + 0.001*tottenham + 0.001*survival + 0.001*first')
+2023-06-14 18:51:28,855 : INFO : (12, '0.002*united + 0.002*review + 0.001*reunion + 0.001*back + 0.001*modern + 0.001*illness + 0.001*england + 0.001*linking + 0.001*ebola + 0.001*leaf')
+2023-06-14 18:51:28,861 : INFO : (13, '0.001*review + 0.001*budget + 0.001*thieves + 0.001*kfc + 0.001*greater + 0.001*hit + 0.001*flat + 0.001*clock + 0.001*unfair + 0.001*imposes')
+2023-06-14 18:51:28,867 : INFO : (14, '0.002*football + 0.001*cd + 0.001*take + 0.001*calf + 0.001*ill + 0.001*ministers + 0.001*mental + 0.001*rush + 0.001*statement + 0.001*send')
+2023-06-14 18:51:28,872 : INFO : (15, '0.001*stasi + 0.001*back + 0.001*fire + 0.001*made + 0.001*interview + 0.001*prohibition + 0.001*bosnia + 0.001*cap + 0.001*lesbian + 0.001*double')
+2023-06-14 18:51:28,877 : INFO : (16, '0.001*get + 0.001*publication + 0.001*top + 0.001*end + 0.001*testify + 0.001*lib + 0.001*captain + 0.001*floor + 0.001*cup + 0.001*workplace')
+2023-06-14 18:51:28,882 : INFO : (17, '0.001*popularity + 0.001*claims + 0.001*week + 0.001*stockholm + 0.001*back + 0.001*detective + 0.001*top + 0.001*arresting + 0.001*essay + 0.001*menu')
+2023-06-14 18:51:28,887 : INFO : (18, '0.003*review + 0.001*fulham + 0.001*united + 0.001*newcastle + 0.001*clampdown + 0.001*zealand + 0.001*london + 0.001*extensive + 0.001*division + 0.001*develop')
+2023-06-14 18:51:28,892 : INFO : (19, '0.001*husband + 0.001*hit + 0.001*went + 0.001*miss + 0.001*investors + 0.001*hamid + 0.001*participation + 0.001*exposed + 0.001*blunder + 0.001*nan')
+2023-06-14 18:51:29,051 : INFO : (0, '0.004*israel + 0.004*china + 0.003*people + 0.003*country + 0.003*war + 0.003*russia + 0.003*america + 0.003*israeli + 0.003*one + 0.003*uk')
+2023-06-14 18:51:29,057 : INFO : (1, '0.003*review + 0.003*cd + 0.003*letters + 0.003*obituary + 0.002*day + 0.002*england + 0.002*football + 0.002*diary + 0.002*get + 0.002*london')
+2023-06-14 18:51:29,061 : INFO : (2, '0.002*leader + 0.002*football + 0.002*review + 0.002*letters + 0.002*england + 0.002*may + 0.002*get + 0.001*go + 0.001*deal + 0.001*obituary')
+2023-06-14 18:51:29,067 : INFO : (3, '0.004*review + 0.004*nan + 0.003*cricket + 0.003*cup + 0.003*rugby + 0.003*back + 0.002*football + 0.002*league + 0.002*racing + 0.002*horse')
+2023-06-14 18:51:29,072 : INFO : (4, '0.003*review + 0.002*back + 0.002*leader + 0.001*man + 0.001*letters + 0.001*england + 0.001*win + 0.001*battle + 0.001*tv + 0.001*home')
+2023-06-14 18:51:29,077 : INFO : (5, '0.002*england + 0.002*get + 0.002*cup + 0.001*leader + 0.001*day + 0.001*crisis + 0.001*take + 0.001*may + 0.001*bbc + 0.001*deal')
+2023-06-14 18:51:29,083 : INFO : (6, '0.003*review + 0.002*time + 0.002*england + 0.001*bbc + 0.001*day + 0.001*play + 0.001*mobile + 0.001*may + 0.001*united + 0.001*deal')
+2023-06-14 18:51:29,088 : INFO : (7, '0.002*cd + 0.002*football + 0.002*letters + 0.001*england + 0.001*back + 0.001*racing + 0.001*face + 0.001*court + 0.001*rugby + 0.001*dec')
+2023-06-14 18:51:29,092 : INFO : (8, '0.001*flu + 0.001*face + 0.001*make + 0.001*blair + 0.001*uk + 0.001*obituary + 0.001*england + 0.001*talk + 0.001*review + 0.001*europe')
+2023-06-14 18:51:29,097 : INFO : (9, '0.004*review + 0.002*england + 0.001*edinburgh + 0.001*theatre + 0.001*get + 0.001*manchester + 0.001*leaf + 0.001*united + 0.001*scotland + 0.001*cup')
+2023-06-14 18:51:29,102 : INFO : (10, '0.004*review + 0.001*back + 0.001*liverpool + 0.001*guardian + 0.001*may + 0.001*theatre + 0.001*london + 0.001*cup + 0.001*face + 0.001*interview')
+2023-06-14 18:51:29,107 : INFO : (11, '0.002*review + 0.001*football + 0.001*city + 0.001*nan + 0.001*call + 0.001*fulham + 0.001*tb + 0.001*tottenham + 0.001*survival + 0.001*first')
+2023-06-14 18:51:29,111 : INFO : (12, '0.002*united + 0.002*review + 0.001*reunion + 0.001*back + 0.001*modern + 0.001*illness + 0.001*england + 0.001*linking + 0.001*ebola + 0.001*leaf')
+2023-06-14 18:51:29,117 : INFO : (13, '0.001*review + 0.001*budget + 0.001*thieves + 0.001*kfc + 0.001*greater + 0.001*hit + 0.001*flat + 0.001*clock + 0.001*unfair + 0.001*imposes')
+2023-06-14 18:51:29,122 : INFO : (14, '0.002*football + 0.001*cd + 0.001*take + 0.001*calf + 0.001*ill + 0.001*ministers + 0.001*mental + 0.001*rush + 0.001*statement + 0.001*send')
+2023-06-14 18:51:29,126 : INFO : (15, '0.001*stasi + 0.001*back + 0.001*fire + 0.001*made + 0.001*interview + 0.001*prohibition + 0.001*bosnia + 0.001*cap + 0.001*lesbian + 0.001*double')
+2023-06-14 18:51:29,132 : INFO : (16, '0.001*get + 0.001*publication + 0.001*top + 0.001*end + 0.001*testify + 0.001*lib + 0.001*captain + 0.001*floor + 0.001*cup + 0.001*workplace')
+2023-06-14 18:51:29,136 : INFO : (17, '0.001*popularity + 0.001*claims + 0.001*week + 0.001*stockholm + 0.001*back + 0.001*detective + 0.001*top + 0.001*arresting + 0.001*essay + 0.001*menu')
+2023-06-14 18:51:29,142 : INFO : (18, '0.003*review + 0.001*fulham + 0.001*united + 0.001*newcastle + 0.001*clampdown + 0.001*zealand + 0.001*london + 0.001*extensive + 0.001*division + 0.001*develop')
+2023-06-14 18:51:29,147 : INFO : (19, '0.001*husband + 0.001*hit + 0.001*went + 0.001*miss + 0.001*investors + 0.001*hamid + 0.001*participation + 0.001*exposed + 0.001*blunder + 0.001*nan')
+2023-06-14 18:51:29,175 : INFO : (0, '0.004*israel + 0.004*china + 0.003*people + 0.003*country + 0.003*war + 0.003*russia + 0.003*america + 0.003*israeli + 0.003*one + 0.003*uk')
+2023-06-14 18:51:29,181 : INFO : (1, '0.003*review + 0.003*cd + 0.003*letters + 0.003*obituary + 0.002*day + 0.002*england + 0.002*football + 0.002*diary + 0.002*get + 0.002*london')
+2023-06-14 18:51:29,185 : INFO : (2, '0.002*leader + 0.002*football + 0.002*review + 0.002*letters + 0.002*england + 0.002*may + 0.002*get + 0.001*go + 0.001*deal + 0.001*obituary')
+2023-06-14 18:51:29,191 : INFO : (3, '0.004*review + 0.004*nan + 0.003*cricket + 0.003*cup + 0.003*rugby + 0.003*back + 0.002*football + 0.002*league + 0.002*racing + 0.002*horse')
+2023-06-14 18:51:29,198 : INFO : (4, '0.003*review + 0.002*back + 0.002*leader + 0.001*man + 0.001*letters + 0.001*england + 0.001*win + 0.001*battle + 0.001*tv + 0.001*home')
+2023-06-14 18:51:29,204 : INFO : (5, '0.002*england + 0.002*get + 0.002*cup + 0.001*leader + 0.001*day + 0.001*crisis + 0.001*take + 0.001*may + 0.001*bbc + 0.001*deal')
+2023-06-14 18:51:29,209 : INFO : (6, '0.003*review + 0.002*time + 0.002*england + 0.001*bbc + 0.001*day + 0.001*play + 0.001*mobile + 0.001*may + 0.001*united + 0.001*deal')
+2023-06-14 18:51:29,214 : INFO : (7, '0.002*cd + 0.002*football + 0.002*letters + 0.001*england + 0.001*back + 0.001*racing + 0.001*face + 0.001*court + 0.001*rugby + 0.001*dec')
+2023-06-14 18:51:29,218 : INFO : (8, '0.001*flu + 0.001*face + 0.001*make + 0.001*blair + 0.001*uk + 0.001*obituary + 0.001*england + 0.001*talk + 0.001*review + 0.001*europe')
+2023-06-14 18:51:29,224 : INFO : (9, '0.004*review + 0.002*england + 0.001*edinburgh + 0.001*theatre + 0.001*get + 0.001*manchester + 0.001*leaf + 0.001*united + 0.001*scotland + 0.001*cup')
+2023-06-14 18:51:29,229 : INFO : (10, '0.004*review + 0.001*back + 0.001*liverpool + 0.001*guardian + 0.001*may + 0.001*theatre + 0.001*london + 0.001*cup + 0.001*face + 0.001*interview')
+2023-06-14 18:51:29,234 : INFO : (11, '0.002*review + 0.001*football + 0.001*city + 0.001*nan + 0.001*call + 0.001*fulham + 0.001*tb + 0.001*tottenham + 0.001*survival + 0.001*first')
+2023-06-14 18:51:29,242 : INFO : (12, '0.002*united + 0.002*review + 0.001*reunion + 0.001*back + 0.001*modern + 0.001*illness + 0.001*england + 0.001*linking + 0.001*ebola + 0.001*leaf')
+2023-06-14 18:51:29,248 : INFO : (13, '0.001*review + 0.001*budget + 0.001*thieves + 0.001*kfc + 0.001*greater + 0.001*hit + 0.001*flat + 0.001*clock + 0.001*unfair + 0.001*imposes')
+2023-06-14 18:51:29,255 : INFO : (14, '0.002*football + 0.001*cd + 0.001*take + 0.001*calf + 0.001*ill + 0.001*ministers + 0.001*mental + 0.001*rush + 0.001*statement + 0.001*send')
+2023-06-14 18:51:29,259 : INFO : (15, '0.001*stasi + 0.001*back + 0.001*fire + 0.001*made + 0.001*interview + 0.001*prohibition + 0.001*bosnia + 0.001*cap + 0.001*lesbian + 0.001*double')
+2023-06-14 18:51:29,266 : INFO : (16, '0.001*get + 0.001*publication + 0.001*top + 0.001*end + 0.001*testify + 0.001*lib + 0.001*captain + 0.001*floor + 0.001*cup + 0.001*workplace')
+2023-06-14 18:51:29,272 : INFO : (17, '0.001*popularity + 0.001*claims + 0.001*week + 0.001*stockholm + 0.001*back + 0.001*detective + 0.001*top + 0.001*arresting + 0.001*essay + 0.001*menu')
+2023-06-14 18:51:29,276 : INFO : (18, '0.003*review + 0.001*fulham + 0.001*united + 0.001*newcastle + 0.001*clampdown + 0.001*zealand + 0.001*london + 0.001*extensive + 0.001*division + 0.001*develop')
+2023-06-14 18:51:29,282 : INFO : (19, '0.001*husband + 0.001*hit + 0.001*went + 0.001*miss + 0.001*investors + 0.001*hamid + 0.001*participation + 0.001*exposed + 0.001*blunder + 0.001*nan')
+2023-06-18 15:20:49,334 : INFO : using symmetric alpha at 0.05
+2023-06-18 15:20:49,335 : INFO : using symmetric eta at 0.05
+2023-06-18 15:20:49,398 : INFO : using serial LDA version on this node
+2023-06-18 15:20:50,202 : INFO : running online (multi-pass) LDA training, 20 topics, 5 passes over the supplied corpus of 3623 documents, updating model once every 2000 documents, evaluating perplexity every 3623 documents, iterating 50x with a convergence threshold of 0.001000
+2023-06-18 15:20:50,202 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2023-06-18 15:20:50,265 : INFO : PROGRESS: pass 0, at document #2000/3623
+2023-06-18 15:20:51,821 : INFO : merging changes from 2000 documents into a model of 3623 documents
+2023-06-18 15:20:52,221 : INFO : topic #7 (0.050): 0.000*"review" + 0.000*"football" + 0.000*"cup" + 0.000*"theatre" + 0.000*"obituary" + 0.000*"letters" + 0.000*"division" + 0.000*"england" + 0.000*"league" + 0.000*"new"
+2023-06-18 15:20:52,226 : INFO : topic #2 (0.050): 0.000*"review" + 0.000*"letters" + 0.000*"england" + 0.000*"football" + 0.000*"new" + 0.000*"cricket" + 0.000*"win" + 0.000*"league" + 0.000*"rugby" + 0.000*"horse racing"
+2023-06-18 15:20:52,231 : INFO : topic #10 (0.050): 0.000*"review" + 0.000*"cricket" + 0.000*"england" + 0.000*"football" + 0.000*"cup" + 0.000*"theatre" + 0.000*"leader" + 0.000*"new" + 0.000*"london" + 0.000*"manchester"
+2023-06-18 15:20:52,236 : INFO : topic #13 (0.050): 0.000*"review" + 0.000*"rugby" + 0.000*"cd" + 0.000*"cup" + 0.000*"england" + 0.000*"cricket" + 0.000*"win" + 0.000*"new" + 0.000*"world" + 0.000*"diary"
+2023-06-18 15:20:52,240 : INFO : topic #1 (0.050): 0.000*"football" + 0.000*"cd" + 0.000*"united" + 0.000*"rugby" + 0.000*"cricket" + 0.000*"new" + 0.000*"horse" + 0.000*"england" + 0.000*"cup" + 0.000*"racing"
+2023-06-18 15:20:52,267 : INFO : topic diff=15.780999, rho=1.000000
+2023-06-18 15:20:56,217 : INFO : -32.348 per-word bound, 5466781738.4 perplexity estimate based on a held-out corpus of 1623 documents with 32048 words
+2023-06-18 15:20:56,217 : INFO : PROGRESS: pass 0, at document #3623/3623
+2023-06-18 15:20:57,519 : INFO : merging changes from 1623 documents into a model of 3623 documents
+2023-06-18 15:20:57,921 : INFO : topic #19 (0.050): 0.000*"review" + 0.000*"new" + 0.000*"england" + 0.000*"cd" + 0.000*"football" + 0.000*"diary" + 0.000*"rugby" + 0.000*"make" + 0.000*"best" + 0.000*"cup"
+2023-06-18 15:20:57,925 : INFO : topic #1 (0.050): 0.000*"football" + 0.000*"cd" + 0.000*"united" + 0.000*"rugby" + 0.000*"cricket" + 0.000*"new" + 0.000*"horse" + 0.000*"england" + 0.000*"cup" + 0.000*"racing"
+2023-06-18 15:20:57,930 : INFO : topic #4 (0.050): 0.000*"england" + 0.000*"premiership" + 0.000*"cup" + 0.000*"review" + 0.000*"new" + 0.000*"united" + 0.000*"football" + 0.000*"fa" + 0.000*"best" + 0.000*"league"
+2023-06-18 15:20:57,935 : INFO : topic #10 (0.050): 0.000*"review" + 0.000*"cricket" + 0.000*"england" + 0.000*"football" + 0.000*"cup" + 0.000*"theatre" + 0.000*"new" + 0.000*"leader" + 0.000*"london" + 0.000*"manchester"
+2023-06-18 15:20:57,939 : INFO : topic #9 (0.050): 0.000*"year" + 0.000*"government" + 0.000*"world" + 0.000*"new" + 0.000*"israel" + 0.000*"police" + 0.000*"people" + 0.000*"china" + 0.000*"country" + 0.000*"war"
+2023-06-18 15:20:57,966 : INFO : topic diff=0.194368, rho=0.707107
+2023-06-18 15:20:58,054 : INFO : PROGRESS: pass 1, at document #2000/3623
+2023-06-18 15:20:59,028 : INFO : merging changes from 2000 documents into a model of 3623 documents
+2023-06-18 15:20:59,418 : INFO : topic #19 (0.050): 0.000*"review" + 0.000*"new" + 0.000*"england" + 0.000*"cd" + 0.000*"football" + 0.000*"diary" + 0.000*"rugby" + 0.000*"make" + 0.000*"best" + 0.000*"cup"
+2023-06-18 15:20:59,422 : INFO : topic #7 (0.050): 0.000*"review" + 0.000*"football" + 0.000*"world" + 0.000*"cup" + 0.000*"theatre" + 0.000*"obituary" + 0.000*"letters" + 0.000*"league" + 0.000*"division" + 0.000*"england"
+2023-06-18 15:20:59,426 : INFO : topic #12 (0.050): 0.000*"bin" + 0.000*"bin laden" + 0.000*"laden" + 0.000*"review" + 0.000*"new" + 0.000*"world" + 0.000*"cd" + 0.000*"year" + 0.000*"war" + 0.000*"north"
+2023-06-18 15:20:59,431 : INFO : topic #18 (0.050): 0.000*"china" + 0.000*"russia" + 0.000*"year" + 0.000*"world" + 0.000*"iran" + 0.000*"government" + 0.000*"country" + 0.000*"police" + 0.000*"new" + 0.000*"war"
+2023-06-18 15:20:59,436 : INFO : topic #17 (0.050): 0.000*"football" + 0.000*"cd" + 0.000*"review" + 0.000*"letters" + 0.000*"england" + 0.000*"ukraine" + 0.000*"london" + 0.000*"united" + 0.000*"leader" + 0.000*"world"
+2023-06-18 15:20:59,461 : INFO : topic diff=0.101676, rho=0.512215
+2023-06-18 15:21:03,512 : INFO : -28.285 per-word bound, 327077420.8 perplexity estimate based on a held-out corpus of 1623 documents with 32048 words
+2023-06-18 15:21:03,512 : INFO : PROGRESS: pass 1, at document #3623/3623
+2023-06-18 15:21:04,769 : INFO : merging changes from 1623 documents into a model of 3623 documents
+2023-06-18 15:21:05,164 : INFO : topic #12 (0.050): 0.000*"bin" + 0.000*"bin laden" + 0.000*"laden" + 0.000*"review" + 0.000*"new" + 0.000*"world" + 0.000*"cd" + 0.000*"year" + 0.000*"war" + 0.000*"north"
+2023-06-18 15:21:05,169 : INFO : topic #17 (0.050): 0.000*"football" + 0.000*"cd" + 0.000*"review" + 0.000*"letters" + 0.000*"england" + 0.000*"ukraine" + 0.000*"london" + 0.000*"united" + 0.000*"leader" + 0.000*"world"
+2023-06-18 15:21:05,173 : INFO : topic #6 (0.050): 0.000*"premier league" + 0.000*"league" + 0.000*"cup" + 0.000*"premier" + 0.000*"england" + 0.000*"review" + 0.000*"cd" + 0.000*"football" + 0.000*"rugby" + 0.000*"obituary"
+2023-06-18 15:21:05,178 : INFO : topic #2 (0.050): 0.000*"review" + 0.000*"new" + 0.000*"win" + 0.000*"football" + 0.000*"letters" + 0.000*"england" + 0.000*"league" + 0.000*"cricket" + 0.000*"power" + 0.000*"london"
+2023-06-18 15:21:05,184 : INFO : topic #9 (0.050): 0.001*"israel" + 0.001*"new" + 0.001*"world" + 0.001*"year" + 0.001*"government" + 0.001*"china" + 0.001*"police" + 0.001*"people" + 0.001*"war" + 0.001*"country"
+2023-06-18 15:21:05,209 : INFO : topic diff=0.074873, rho=0.512215
+2023-06-18 15:21:05,296 : INFO : PROGRESS: pass 2, at document #2000/3623
+2023-06-18 15:21:06,164 : INFO : merging changes from 2000 documents into a model of 3623 documents
+2023-06-18 15:21:06,567 : INFO : topic #18 (0.050): 0.000*"china" + 0.000*"russia" + 0.000*"year" + 0.000*"world" + 0.000*"iran" + 0.000*"government" + 0.000*"country" + 0.000*"police" + 0.000*"new" + 0.000*"war"
+2023-06-18 15:21:06,571 : INFO : topic #5 (0.050): 0.000*"apr" + 0.000*"review" + 0.000*"film review" + 0.000*"film" + 0.000*"united" + 0.000*"england" + 0.000*"football" + 0.000*"new" + 0.000*"london" + 0.000*"obituary"
+2023-06-18 15:21:06,575 : INFO : topic #3 (0.050): 0.000*"review" + 0.000*"league" + 0.000*"apr" + 0.000*"england" + 0.000*"football" + 0.000*"letters" + 0.000*"new" + 0.000*"rugby" + 0.000*"weekly" + 0.000*"face"
+2023-06-18 15:21:06,579 : INFO : topic #11 (0.050): 0.000*"israel" + 0.000*"israeli" + 0.000*"new" + 0.000*"woman" + 0.000*"year" + 0.000*"country" + 0.000*"attack" + 0.000*"review" + 0.000*"london" + 0.000*"death"
+2023-06-18 15:21:06,584 : INFO : topic #19 (0.050): 0.000*"review" + 0.000*"new" + 0.000*"england" + 0.000*"cd" + 0.000*"football" + 0.000*"diary" + 0.000*"rugby" + 0.000*"make" + 0.000*"best" + 0.000*"cup"
+2023-06-18 15:21:06,609 : INFO : topic diff=0.040185, rho=0.455890
+2023-06-18 15:21:10,389 : INFO : -28.177 per-word bound, 303407661.4 perplexity estimate based on a held-out corpus of 1623 documents with 32048 words
+2023-06-18 15:21:10,389 : INFO : PROGRESS: pass 2, at document #3623/3623
+2023-06-18 15:21:11,598 : INFO : merging changes from 1623 documents into a model of 3623 documents
+2023-06-18 15:21:12,023 : INFO : topic #9 (0.050): 0.001*"new" + 0.001*"israel" + 0.001*"world" + 0.001*"year" + 0.001*"china" + 0.001*"government" + 0.001*"police" + 0.001*"people" + 0.001*"war" + 0.001*"country"
+2023-06-18 15:21:12,031 : INFO : topic #18 (0.050): 0.000*"china" + 0.000*"russia" + 0.000*"year" + 0.000*"world" + 0.000*"iran" + 0.000*"government" + 0.000*"country" + 0.000*"police" + 0.000*"new" + 0.000*"war"
+2023-06-18 15:21:12,039 : INFO : topic #8 (0.050): 0.000*"korea" + 0.000*"pick week" + 0.000*"north korea" + 0.000*"police" + 0.000*"new" + 0.000*"world" + 0.000*"north" + 0.000*"year" + 0.000*"government" + 0.000*"china"
+2023-06-18 15:21:12,045 : INFO : topic #3 (0.050): 0.000*"review" + 0.000*"league" + 0.000*"apr" + 0.000*"england" + 0.000*"football" + 0.000*"letters" + 0.000*"new" + 0.000*"rugby" + 0.000*"weekly" + 0.000*"face"
+2023-06-18 15:21:12,052 : INFO : topic #2 (0.050): 0.000*"review" + 0.000*"new" + 0.000*"win" + 0.000*"football" + 0.000*"letters" + 0.000*"england" + 0.000*"league" + 0.000*"cricket" + 0.000*"power" + 0.000*"london"
+2023-06-18 15:21:12,079 : INFO : topic diff=0.026588, rho=0.455890
+2023-06-18 15:21:12,165 : INFO : PROGRESS: pass 3, at document #2000/3623
+2023-06-18 15:21:13,109 : INFO : merging changes from 2000 documents into a model of 3623 documents
+2023-06-18 15:21:13,509 : INFO : topic #18 (0.050): 0.000*"china" + 0.000*"russia" + 0.000*"year" + 0.000*"world" + 0.000*"iran" + 0.000*"government" + 0.000*"country" + 0.000*"police" + 0.000*"new" + 0.000*"war"
+2023-06-18 15:21:13,514 : INFO : topic #7 (0.050): 0.000*"review" + 0.000*"football" + 0.000*"world" + 0.000*"cup" + 0.000*"theatre" + 0.000*"obituary" + 0.000*"letters" + 0.000*"league" + 0.000*"division" + 0.000*"england"
+2023-06-18 15:21:13,519 : INFO : topic #15 (0.050): 0.000*"ukraine" + 0.000*"pakistan" + 0.000*"korea" + 0.000*"cup qualifier" + 0.000*"new" + 0.000*"qualifier" + 0.000*"world" + 0.000*"israel" + 0.000*"chinese" + 0.000*"people"
+2023-06-18 15:21:13,523 : INFO : topic #17 (0.050): 0.000*"football" + 0.000*"cd" + 0.000*"review" + 0.000*"letters" + 0.000*"england" + 0.000*"ukraine" + 0.000*"london" + 0.000*"united" + 0.000*"leader" + 0.000*"world"
+2023-06-18 15:21:13,528 : INFO : topic #6 (0.050): 0.000*"premier league" + 0.000*"league" + 0.000*"cup" + 0.000*"premier" + 0.000*"england" + 0.000*"review" + 0.000*"cd" + 0.000*"football" + 0.000*"rugby" + 0.000*"obituary"
+2023-06-18 15:21:13,553 : INFO : topic diff=0.013892, rho=0.414816
+2023-06-18 15:21:17,783 : INFO : -28.221 per-word bound, 312775002.8 perplexity estimate based on a held-out corpus of 1623 documents with 32048 words
+2023-06-18 15:21:17,784 : INFO : PROGRESS: pass 3, at document #3623/3623
+2023-06-18 15:21:19,129 : INFO : merging changes from 1623 documents into a model of 3623 documents
+2023-06-18 15:21:19,524 : INFO : topic #9 (0.050): 0.001*"new" + 0.001*"israel" + 0.001*"world" + 0.001*"year" + 0.001*"china" + 0.001*"government" + 0.001*"police" + 0.001*"people" + 0.001*"review" + 0.001*"war"
+2023-06-18 15:21:19,529 : INFO : topic #17 (0.050): 0.000*"football" + 0.000*"cd" + 0.000*"review" + 0.000*"letters" + 0.000*"england" + 0.000*"ukraine" + 0.000*"london" + 0.000*"united" + 0.000*"leader" + 0.000*"world"
+2023-06-18 15:21:19,533 : INFO : topic #4 (0.050): 0.000*"england" + 0.000*"premiership" + 0.000*"cup" + 0.000*"review" + 0.000*"new" + 0.000*"united" + 0.000*"football" + 0.000*"fa" + 0.000*"best" + 0.000*"league"
+2023-06-18 15:21:19,538 : INFO : topic #7 (0.050): 0.000*"review" + 0.000*"football" + 0.000*"world" + 0.000*"cup" + 0.000*"theatre" + 0.000*"obituary" + 0.000*"letters" + 0.000*"league" + 0.000*"division" + 0.000*"england"
+2023-06-18 15:21:19,542 : INFO : topic #5 (0.050): 0.000*"apr" + 0.000*"review" + 0.000*"film review" + 0.000*"film" + 0.000*"united" + 0.000*"england" + 0.000*"football" + 0.000*"new" + 0.000*"london" + 0.000*"obituary"
+2023-06-18 15:21:19,567 : INFO : topic diff=0.009725, rho=0.414816
+2023-06-18 15:21:19,656 : INFO : PROGRESS: pass 4, at document #2000/3623
+2023-06-18 15:21:20,556 : INFO : merging changes from 2000 documents into a model of 3623 documents
+2023-06-18 15:21:20,947 : INFO : topic #19 (0.050): 0.000*"review" + 0.000*"new" + 0.000*"england" + 0.000*"cd" + 0.000*"football" + 0.000*"diary" + 0.000*"rugby" + 0.000*"make" + 0.000*"best" + 0.000*"cup"
+2023-06-18 15:21:20,952 : INFO : topic #13 (0.050): 0.000*"review" + 0.000*"rugby" + 0.000*"cd" + 0.000*"cup" + 0.000*"england" + 0.000*"cricket" + 0.000*"win" + 0.000*"new" + 0.000*"world" + 0.000*"diary"
+2023-06-18 15:21:20,958 : INFO : topic #9 (0.050): 0.001*"review" + 0.001*"new" + 0.001*"football" + 0.001*"world" + 0.001*"england" + 0.001*"year" + 0.001*"israel" + 0.001*"police" + 0.001*"leader" + 0.001*"government"
+2023-06-18 15:21:20,963 : INFO : topic #7 (0.050): 0.000*"review" + 0.000*"football" + 0.000*"world" + 0.000*"cup" + 0.000*"theatre" + 0.000*"obituary" + 0.000*"letters" + 0.000*"league" + 0.000*"division" + 0.000*"england"
+2023-06-18 15:21:20,968 : INFO : topic #17 (0.050): 0.000*"football" + 0.000*"cd" + 0.000*"review" + 0.000*"letters" + 0.000*"england" + 0.000*"ukraine" + 0.000*"london" + 0.000*"united" + 0.000*"leader" + 0.000*"world"
+2023-06-18 15:21:20,993 : INFO : topic diff=0.005383, rho=0.383159
+2023-06-18 15:21:24,937 : INFO : -28.251 per-word bound, 319481014.5 perplexity estimate based on a held-out corpus of 1623 documents with 32048 words
+2023-06-18 15:21:24,937 : INFO : PROGRESS: pass 4, at document #3623/3623
+2023-06-18 15:21:26,249 : INFO : merging changes from 1623 documents into a model of 3623 documents
+2023-06-18 15:21:26,646 : INFO : topic #10 (0.050): 0.000*"review" + 0.000*"cricket" + 0.000*"england" + 0.000*"football" + 0.000*"cup" + 0.000*"theatre" + 0.000*"new" + 0.000*"leader" + 0.000*"london" + 0.000*"manchester"
+2023-06-18 15:21:26,651 : INFO : topic #12 (0.050): 0.000*"bin" + 0.000*"bin laden" + 0.000*"laden" + 0.000*"review" + 0.000*"new" + 0.000*"world" + 0.000*"cd" + 0.000*"year" + 0.000*"war" + 0.000*"north"
+2023-06-18 15:21:26,656 : INFO : topic #3 (0.050): 0.000*"review" + 0.000*"league" + 0.000*"apr" + 0.000*"england" + 0.000*"football" + 0.000*"letters" + 0.000*"new" + 0.000*"rugby" + 0.000*"weekly" + 0.000*"face"
+2023-06-18 15:21:26,661 : INFO : topic #14 (0.050): 0.000*"football" + 0.000*"review" + 0.000*"new" + 0.000*"letters" + 0.000*"day" + 0.000*"police" + 0.000*"man" + 0.000*"jun" + 0.000*"people" + 0.000*"world"
+2023-06-18 15:21:26,666 : INFO : topic #18 (0.050): 0.000*"china" + 0.000*"russia" + 0.000*"year" + 0.000*"world" + 0.000*"iran" + 0.000*"government" + 0.000*"country" + 0.000*"police" + 0.000*"new" + 0.000*"war"
+2023-06-18 15:21:26,693 : INFO : topic diff=0.003944, rho=0.383159
+2023-06-18 15:21:26,727 : INFO : LdaModel lifecycle event {'msg': 'trained LdaModel<num_terms=510501, num_topics=20, decay=0.5, chunksize=2000> in 36.53s', 'datetime': '2023-06-18T15:21:26.727003', 'gensim': '4.3.0', 'python': '3.9.16 (main, Jan 11 2023, 16:16:36) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'created'}
+2023-06-18 15:31:08,630 : INFO : topic #0 (0.050): 0.000*"world" + 0.000*"iraq" + 0.000*"war" + 0.000*"new" + 0.000*"england" + 0.000*"cup" + 0.000*"report" + 0.000*"review" + 0.000*"united" + 0.000*"blair"
+2023-06-18 15:31:08,636 : INFO : topic #1 (0.050): 0.000*"football" + 0.000*"cd" + 0.000*"united" + 0.000*"rugby" + 0.000*"cricket" + 0.000*"new" + 0.000*"horse" + 0.000*"england" + 0.000*"cup" + 0.000*"racing"
+2023-06-18 15:31:08,639 : INFO : topic #2 (0.050): 0.000*"review" + 0.000*"new" + 0.000*"win" + 0.000*"football" + 0.000*"letters" + 0.000*"england" + 0.000*"league" + 0.000*"cricket" + 0.000*"power" + 0.000*"london"
+2023-06-18 15:31:08,644 : INFO : topic #3 (0.050): 0.000*"review" + 0.000*"league" + 0.000*"apr" + 0.000*"england" + 0.000*"football" + 0.000*"letters" + 0.000*"new" + 0.000*"rugby" + 0.000*"weekly" + 0.000*"face"
+2023-06-18 15:31:08,649 : INFO : topic #4 (0.050): 0.000*"england" + 0.000*"premiership" + 0.000*"cup" + 0.000*"review" + 0.000*"new" + 0.000*"united" + 0.000*"football" + 0.000*"fa" + 0.000*"best" + 0.000*"league"
+2023-06-18 15:31:08,655 : INFO : topic #5 (0.050): 0.000*"apr" + 0.000*"review" + 0.000*"film review" + 0.000*"film" + 0.000*"united" + 0.000*"england" + 0.000*"football" + 0.000*"new" + 0.000*"london" + 0.000*"obituary"
+2023-06-18 15:31:08,661 : INFO : topic #6 (0.050): 0.000*"premier league" + 0.000*"league" + 0.000*"cup" + 0.000*"premier" + 0.000*"england" + 0.000*"review" + 0.000*"cd" + 0.000*"football" + 0.000*"rugby" + 0.000*"obituary"
+2023-06-18 15:31:08,666 : INFO : topic #7 (0.050): 0.000*"review" + 0.000*"football" + 0.000*"world" + 0.000*"cup" + 0.000*"theatre" + 0.000*"obituary" + 0.000*"letters" + 0.000*"league" + 0.000*"division" + 0.000*"england"
+2023-06-18 15:31:08,670 : INFO : topic #8 (0.050): 0.000*"pick week" + 0.000*"korea" + 0.000*"north korea" + 0.000*"police" + 0.000*"new" + 0.000*"world" + 0.000*"north" + 0.000*"year" + 0.000*"government" + 0.000*"china"
+2023-06-18 15:31:08,675 : INFO : topic #9 (0.050): 0.001*"new" + 0.001*"israel" + 0.001*"world" + 0.001*"year" + 0.001*"china" + 0.001*"government" + 0.001*"police" + 0.001*"review" + 0.001*"people" + 0.001*"war"
+2023-06-18 15:31:08,679 : INFO : topic #10 (0.050): 0.000*"review" + 0.000*"cricket" + 0.000*"england" + 0.000*"football" + 0.000*"cup" + 0.000*"theatre" + 0.000*"new" + 0.000*"leader" + 0.000*"london" + 0.000*"manchester"
+2023-06-18 15:31:08,684 : INFO : topic #11 (0.050): 0.000*"israel" + 0.000*"israeli" + 0.000*"new" + 0.000*"woman" + 0.000*"year" + 0.000*"country" + 0.000*"attack" + 0.000*"review" + 0.000*"london" + 0.000*"death"
+2023-06-18 15:31:08,688 : INFO : topic #12 (0.050): 0.000*"bin" + 0.000*"bin laden" + 0.000*"laden" + 0.000*"review" + 0.000*"new" + 0.000*"world" + 0.000*"cd" + 0.000*"year" + 0.000*"war" + 0.000*"north"
+2023-06-18 15:31:08,692 : INFO : topic #13 (0.050): 0.000*"review" + 0.000*"rugby" + 0.000*"cd" + 0.000*"cup" + 0.000*"england" + 0.000*"cricket" + 0.000*"win" + 0.000*"new" + 0.000*"world" + 0.000*"diary"
+2023-06-18 15:31:08,697 : INFO : topic #14 (0.050): 0.000*"football" + 0.000*"review" + 0.000*"new" + 0.000*"letters" + 0.000*"day" + 0.000*"police" + 0.000*"man" + 0.000*"jun" + 0.000*"people" + 0.000*"world"
+2023-06-18 15:31:08,702 : INFO : topic #15 (0.050): 0.000*"ukraine" + 0.000*"pakistan" + 0.000*"korea" + 0.000*"cup qualifier" + 0.000*"new" + 0.000*"qualifier" + 0.000*"world" + 0.000*"israel" + 0.000*"chinese" + 0.000*"people"
+2023-06-18 15:31:08,707 : INFO : topic #16 (0.050): 0.000*"cd" + 0.000*"review" + 0.000*"football" + 0.000*"new" + 0.000*"rugby" + 0.000*"cup" + 0.000*"obituary" + 0.000*"letters" + 0.000*"league" + 0.000*"england"
+2023-06-18 15:31:08,712 : INFO : topic #17 (0.050): 0.000*"football" + 0.000*"cd" + 0.000*"review" + 0.000*"letters" + 0.000*"england" + 0.000*"ukraine" + 0.000*"london" + 0.000*"united" + 0.000*"leader" + 0.000*"world"
+2023-06-18 15:31:08,716 : INFO : topic #18 (0.050): 0.000*"china" + 0.000*"russia" + 0.000*"year" + 0.000*"world" + 0.000*"iran" + 0.000*"government" + 0.000*"country" + 0.000*"police" + 0.000*"new" + 0.000*"war"
+2023-06-18 15:31:08,721 : INFO : topic #19 (0.050): 0.000*"review" + 0.000*"new" + 0.000*"england" + 0.000*"cd" + 0.000*"football" + 0.000*"diary" + 0.000*"rugby" + 0.000*"make" + 0.000*"best" + 0.000*"cup"
